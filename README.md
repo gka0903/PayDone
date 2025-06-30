@@ -87,8 +87,35 @@ https://www.erdcloud.com/d/B8ZsnXeK2Sphsctrg
 https://www.notion.so/21efe7aabb4b80f78143d85121247843?v=21efe7aabb4b81a6bdc1000c70fa197a&source=copy_link
 
 ---
+🎯 기술 스택 및 툴 선정
 
-## 향후 확장 아이디어 (참고)
+Frontend
+	•	Next.js + TypeScript
+	•	Tailwind CSS
+	•	React Query
+	•	Axios
+
+Backend
+	•	Spring Boot 
+	•	Spring Data JPA 
+	•	MySQL
+	•	Lombok 
+	•	Spring Security + JWT 
+
+금융 API 모의 처리
+	•	Interface 설계 (BankApiClient 인터페이스 → 추후 실제 API 교체 용이)
+	•	Mock 서버 (WireMock 또는 Spring의 @RestClientTest 활용)
+
+개발·배포·협업
+	•	Git + GitHub (코드 관리)
+	•	Docker Compose (로컬 환경 통합)
+	•	Postman (API 테스트)
+	•	Vercel (프론트 배포)
+	•	Railway 또는 EC2 (백엔드 배포)
+
+---
+
+## 향후 확장 아이디어
 
 - 친구 초대 → 서로 보상 경쟁/응원 기능
 - 실제 금융 송금 기능 정식 연동 (Toss, KakaoPay 등)
